@@ -91,7 +91,7 @@ export default function Skills() {
                 className="inline-flex items-center gap-3 shrink-0 px-6 py-3.5 rounded-xl bg-white/5 border border-white/10 text-gray-300 text-sm font-medium backdrop-blur-md shadow-xl cursor-default hover:text-cyan-400 transform transition-all duration-300 hover:-translate-y-1 hover:border-cyan-400/30 hover:bg-white/10"
               >
                 {/* Icon Glass Container */}
-                <div className="p-2 rounded-lg bg-black/40 border border-white/5 backdrop-blur-sm">
+                <div className="p-0.5 rounded-lg bg-black/40 border border-white/5 backdrop-blur-sm">
                   {skill.icon}
                 </div>
                 <span className="tracking-wide font-display">{skill.name}</span>
