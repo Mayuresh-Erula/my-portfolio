@@ -137,7 +137,7 @@ export default function Hero() {
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.6, cubicBezier: [0.16, 1, 0.3, 1] }}
+              transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
               className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-md bg-cyan-950/30 border border-cyan-500/20 text-cyan-400 mb-6 w-fit mx-auto lg:mx-0 backdrop-blur-md text-xs font-mono uppercase tracking-widest"
             >
               <Terminal size={14} className="animate-pulse text-cyan-400" />
